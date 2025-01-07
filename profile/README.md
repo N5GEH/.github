@@ -10,7 +10,7 @@ If there are any questions or remarks, feel free to leave an issue or contact us
 The [n5geh.platform](https://github.com/N5GEH/n5geh.platform/tree/master) repository walks you through the setup of a possible FIWARE-based platform, both in single node and multi node setup. We applied additional tools and platform settings recommended by us. We simply refer to the used setup as platform.
 Of course, this is just one possible solution. FIWARE follows the approach of a modular framework so you can build your plattform according to your needs. So you can exchange components, simply add new ones or delete obsoletes ones in order to build the platform customized for your use case.
 Our basic platform setup includes the commonly used orion context broker as central component for context management. Orion is stateless and saves its data in MongoDB. We apply IoT agents in order to provide MQTT, AMQP and HTTP bindings towards the field layer. For the commonly used MQTT protocol, we set up the MQTT broker called mosquitto. In order to save timeseries data, we use Quantumleap that functions as an NGSI interface to timeseries databases like CrateDB or TimescaleDB. In our example, we use CrateDB. To visualize data saved in CrateDB, we use grafana.
-![picture](https://n5geh.de/wp-content/uploads/platform_overview_wo_logos.png)
+![picture](/logos/platform_overview_simple_800dpi.png?raw=true)
 
 NGSI comes in two different versions: Version 2 (NGSIv2) and Linked Data (NGSI-LD). NGSI v2 is the legacy version but still offers some functionalities NGSI-LD has not implemented yet. Nevertheless, NGSI-LD is the standardized format by the European Telecommunications Standards Institute (ETSI) that is under constant development. 
 
