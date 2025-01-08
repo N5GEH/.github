@@ -46,7 +46,7 @@ We provide a quick step-by-step tutorial to set up Entirety in [tutorials.entire
 [n5geh.tools.mqtt-gateway](https://github.com/N5GEH/n5geh.tools.mqtt-gateway) provides a universal interface that can integrate any MQTT-based JSON data into NGSI-V2 context broker.
 
 ### Cratesweep 
-[n5geh.tools.cratesweep](https://github.com/N5GEH/n5geh.tools.cratesweep) is designed to regularly clean up CrateDB tables based on configured intervals. This might be useful if you have limited storage or need to clearn certain dummy data regularly.
+[n5geh.tools.cratesweep](https://github.com/N5GEH/n5geh.tools.cratesweep) is designed to regularly clean up CrateDB tables based on configured intervals. This might be useful if you have limited storage or need to clean certain dummy data regularly.
 
 ## Services
 ### Controller 
