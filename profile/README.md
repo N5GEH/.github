@@ -31,6 +31,8 @@ In the [n5geh.tutorials.route_and_secure_applications](https://github.com/N5GEH/
 
 The next repo shows how to protect your services, APIs, and ports using the Kong API Gateway working as PEP proxy. It communicates with a keycloak server for authentication and authorization of incoming requests [n5geh.tutorials.api-protection](https://github.com/N5GEH/n5geh.tutorials.api-protection). We provide several plugins in order to cover basic authentication and authorization use cases. Have a look at the repository for further information.
 
+The tutorial [n5geh.tutorials.createdb](https://github.com/N5GEH/n5geh.tutorials.createdb) shows how to query data directly from the crateDB if necessary. The script is written for a data model using the NGSI v2 standard.
+
 ## Tools
 ### Entirety
 Entirety is a web service written in Django that provides a graphical user interface to provide FIWARE users an easy access to the FIWARE core components without being familiar with REST requests and the FIWARE internal data handling. Entirety offers modules to create, read, update and delete devices, entities and notifications. Furthermore, Entirety comes with a module to visualize the relationships between your entity data. Currently, Entirety supports the FIWARE internal format NGSIv2 but we are already working on a NGSI Linked Data support.
