@@ -86,8 +86,8 @@ IoT-AIO is a wireless adapter for developing IoT applications for industrial and
 
 # Acknowledgments
 We gratefully acknowledge the financial support of the Federal Ministry
-for Economic Affairs and Climate Action (BMWK), promotional references 
-03ET1561A, 03ET1561B, 03EN1030B, 03EN1030A
+for Economic Affairs and Climate Action (BMWK), promotional references
+03ET1561A, 03ET1561B, 03EN1030B, 03EN1030A (More information at [EnArgus](https://www.enargus.de/)).
 
 <a href="https://www.bundeswirtschaftsministerium.de/Navigation/EN/Home/home.html"> <img alt="BMWE" 
 src="https://raw.githubusercontent.com/gewv-tu-dresden/encodapy/main/docs/source/logos/BMWE_gefoerdert_en_RGB.svg" height="150"> </a>
