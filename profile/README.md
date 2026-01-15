@@ -34,7 +34,7 @@ The next repo shows how to protect your services, APIs, and ports using the Kong
 
 The tutorial [n5geh.tutorials.createdb](https://github.com/N5GEH/n5geh.tutorials.createdb) shows how to query data directly from the crateDB if necessary. The script is written for a data model using the NGSI v2 standard.
 
-The tutorial [n5geh.tutorials.monitoring_tools](https://github.com/N5GEH/n5geh.tutorials.monitoring_tools) shows, how you can set up a monitoring system for your platform and the connected devices including a status page to show the status of your endpoints to all of your users. The tutorial does not claim to be exhaustive, but presents possible approaches. Ansible is used for deployment in order to lower the barriers.
+The tutorial [n5geh.tutorials.monitoring_tools](https://github.com/N5GEH/n5geh.tutorials.monitoring_tools) shows how you can set up a monitoring system for your platform and the connected devices including a status page to show the status of your endpoints to all of your users. The tutorial does not claim to be exhaustive, but presents possible approaches. Ansible is used for deployment in order to lower the barriers.
 
 ## Tools
 ### Entirety
