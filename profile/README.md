@@ -1,4 +1,5 @@
-![ERC](https://raw.githubusercontent.com/RWTH-EBC/FiLiP/master/docs/logos/EBC_Logo.png) ![TUD](/logos/Logo-Banner-TUD-IET-GEWV.jpg?raw=true)
+![ERC](https://raw.githubusercontent.com/RWTH-EBC/FiLiP/master/docs/logos/EBC_Logo.png)
+![GEWV TUD](https://raw.githubusercontent.com/gewv-tu-dresden/encodapy/main/docs/source/logos/GEWV_Logo.svg)
 
 # Welcome to the N5GEH GitHub Presence
 In the following, we briefly describe our provided repositories containing tutorials, tools, services and device software. The repositories have been created in the course of the [N5GEH-Serv](https://n5geh.com/) project and its predecessor N5GEH. In the [N5GEH project network](https://n5geh.com/project-network/), projects from different areas in the energy sector committed themselves to base their applications on the [FIWARE open source platform framework](https://github.com/FIWARE/catalogue). 
@@ -33,6 +34,8 @@ The next repo shows how to protect your services, APIs, and ports using the Kong
 
 The tutorial [n5geh.tutorials.createdb](https://github.com/N5GEH/n5geh.tutorials.createdb) shows how to query data directly from the crateDB if necessary. The script is written for a data model using the NGSI v2 standard.
 
+The tutorial [n5geh.tutorials.monitoring_tools](https://github.com/N5GEH/n5geh.tutorials.monitoring_tools) shows how you can set up a monitoring system for your platform and the connected devices including a status page to show the status of your endpoints to all of your users. The tutorial does not claim to be exhaustive, but presents possible approaches. Ansible is used for deployment in order to lower the barriers.
+
 ## Tools
 ### Entirety
 Entirety is a web service written in Django that provides a graphical user interface to provide FIWARE users an easy access to the FIWARE core components without being familiar with REST requests and the FIWARE internal data handling. Entirety offers modules to create, read, update and delete devices, entities and notifications. Furthermore, Entirety comes with a module to visualize the relationships between your entity data. Currently, Entirety supports the FIWARE internal format NGSIv2 but we are already working on a NGSI Linked Data support.
@@ -50,9 +53,19 @@ We provide a quick step-by-step tutorial to set up Entirety in [tutorials.entire
 ### Cratesweep 
 [n5geh.tools.cratesweep](https://github.com/N5GEH/n5geh.tools.cratesweep) is designed to regularly clean up CrateDB tables based on configured intervals. This might be useful if you have limited storage or need to clean certain dummy data regularly.
 
+### Token Website
+[n5geh.tools.apiTokenWebsite](https://github.com/N5GEH/n5geh.tools.apiTokenWebsite) provides a small website which allows users to obtain bearer tokens for API protection, as shown in [n5geh.tutorials.route_and_secure_applications](https://github.com/N5GEH/n5geh.tutorials.route_and_secure_applications). Users can use the token to interact with the platform's endpoints for development purposes.
+
 ## Services
 ### Controller 
 [n5geh.services.controller](https://github.com/N5GEH/n5geh.services.controller) contains a generic PID controller framework to control IoT devices that are connected to a FIWARE platform via Orion context broker.
+
+### EnCoDaPy (Energy Component Data Python)
+[encodapy](https://github.com/gewv-tu-dresden/encodapy) is a Python framework for the configuration and management of energy system components. It provides a comprehensive solution for:
+- Configuration Management: Structured models for system and component configurations
+- Data Integration: Support for various interfaces (MQTT, FIWARE, File)
+- Component Control: Modular architecture for energy system components
+- Data Validation: Pydantic-based models for robust data processing
 
 ### Grid Protection 
 The [n5geh.services.grid_protection](https://github.com/N5GEH/n5geh.services.grid_protection) repository serves as an exemplary implementation of cloud-based grid protection. 
@@ -72,9 +85,8 @@ IoT-DIO is a wireless adapter for developing IoT applications for industrial and
 IoT-AIO is a wireless adapter for developing IoT applications for industrial and building automation systems based on the Espressif chipset ESP32. The device can be reached through [n5geh.devices.iot_wa_aio](https://github.com/N5GEH/n5geh.devices.iot_wa_aio).
 
 # Acknowledgments
-We gratefully acknowledge the financial support of the Federal Ministry
-for Economic Affairs and Climate Action (BMWK), promotional references 
-03ET1561A, 03ET1561B, 03EN1030B, 03EN1030A
+We gratefully acknowledge the financial support of the Federal Ministry for Economic Affairs and Energy (BMWE), promotional references
+03ET1561A, 03ET1561B, 03EN1030B, 03EN1030A (More information at [EnArgus](https://www.enargus.de/)).
 
-<a href="https://www.bmwi.de/Navigation/EN/Home/home.html"> <img alt="BMWK" 
-src="https://raw.githubusercontent.com/RWTH-EBC/FiLiP/master/docs/logos/bmwi_logo_en.png" height="100"> </a>
+<a href="https://www.bundeswirtschaftsministerium.de/Navigation/EN/Home/home.html"> <img alt="BMWE" 
+src="https://raw.githubusercontent.com/gewv-tu-dresden/encodapy/main/docs/source/logos/BMWE_gefoerdert_en_RGB.svg" height="150"> </a>
