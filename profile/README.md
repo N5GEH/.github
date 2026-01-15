@@ -85,8 +85,7 @@ IoT-DIO is a wireless adapter for developing IoT applications for industrial and
 IoT-AIO is a wireless adapter for developing IoT applications for industrial and building automation systems based on the Espressif chipset ESP32. The device can be reached through [n5geh.devices.iot_wa_aio](https://github.com/N5GEH/n5geh.devices.iot_wa_aio).
 
 # Acknowledgments
-We gratefully acknowledge the financial support of the Federal Ministry
-for Economic Affairs and Climate Action (BMWK), promotional references
+We gratefully acknowledge the financial support of the Federal Ministry for Economic Affairs and Energy (BMWE), promotional references
 03ET1561A, 03ET1561B, 03EN1030B, 03EN1030A (More information at [EnArgus](https://www.enargus.de/)).
 
 <a href="https://www.bundeswirtschaftsministerium.de/Navigation/EN/Home/home.html"> <img alt="BMWE" 
